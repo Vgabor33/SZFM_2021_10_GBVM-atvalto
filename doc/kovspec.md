@@ -21,15 +21,39 @@ Ide jöhetne még az is, hogy minden rendszeren, reszponzív felület kellene a 
 
 ## 3. Jelenlegi üzleti folyamatok
 
-Itt a cégtől függően esetleg lehetne írni, hogy hogyan számol az ilettő most a mértékegységek között, és hogy ez mihez kell neki (pl. a cég által végzett tevékenység árának kiszámításához)
+### 3.1. A megrendelés terveinek elkészítése
 
+A mérnökök az anyaroszágban készítik el a terveket a saját mértékegységrendszerükkel, majd a megrendelést a megrendelő által kívánt helyszínen (világszerte bárhol), helyi munkaerővel valósítja meg a cég.
 
+### 3.2. A megrendelés kivitelezése
+
+A helyszínre 2-3 építkezésfelügyelőt rendel ki a cég, hogy biztosítsák a megrendelt termék minőségét.
+
+A termék egyedi tulajdonságaiból fakadóan több nemszabványos mértékegység is szerepelhet a tervekben.
+
+### 3.3. Mértékegységátváltó táblázatok használata
+
+Egy mérnök a helyszínen átváltja a kívánt méréseket az adott mértékegységre számológép és egy speciális táblázat használatával.
+
+Ha egy építő tudni szeretne egy mérést az általa kívánt mértékegységben, akkor megkérdezi a helyszínen lévő mérnököt.
+
+Az építő nem alkalmas a táblázat papírjának fenntartására valamint a szükséges, néha többlépéses számítások elvégzésére.
 
 ## 4. Igényelt üzleti folyamatok
 
-Ide jöhet, hogyan működne a felület, például: X dolog átváltása Y-ba (, majd egy gomb megnyomásával egy végösszeg) 
+### 4.1. A megrendelés terveinek elkészítése
 
+A tervet készítő mérnökök munkájának változatlanak kell maradnia.
 
+### 4.2. A mértékegységátváltás elérhetővé tétele
+
+Egy olyan megoldás, amely lehetővé teszi a mértékegységek átváltását az építők által.
+
+Ha egy építő tudni szeretne egy mérést az általa kívánt mértékegységben, akkor el tudja ő maga is gyorsan, könnyen, pontosan végezni az átváltást, a helyszíni mérnökök erőforrásait nem felhasználva.
+
+Az építő a mértékegységátváltásra egy már meglévő eszközt használ, amelyet már ismer, és vagy tapasztalt a kezelésében vagy kezelése eléggé intuitív.
+
+Egyes mértékegységek előre betáplálása a rendszerbe, hogy az építő könnyen érje el őket.
 
 ## 5. A rendszerre vonatkozó szabályok
 
