@@ -4,19 +4,17 @@
 
 ## 1. Jelenlegi helyzet
 
-Ide kellene kitalálni egy cég nevet akinek csinálnák ezt az átváltót.
-
-Valami olyan történetre gondoltam, hogy a képzelt cégnek gyakran kell átváltásokat csinálnia (akár impreial/metric rendszerek között is) és ehhez egy táblázatot visznek magukkal ha terepen dolgoznak, ami alapján kell átváltaniuk, kézi számításokra alapozva.
-
+Sett Construction Company, nemzetközi építkezési vállalatunk rendelkezik olyan kliensekkel akik imperial rendszert használnak. A terepfelmérésre, és alapanyag becslésre így papír alapú táblázatot viszünk magunkkal, ami alapján kézileg kell elvégezni a számításokat, ezek eredménye segítségével mérjük fel a költségeket, amit később felszámolunk az alapdíjra a megbízónak.
 
 
 
 ## 2. Vágyott rendszer
 
-Ide lehetne esetleg írni célként, a kézi számolás esetleges hibáinak kiküszöbölését, és a egy modern rendszerre való áttérés lehetőségét.
+A vállalatunk fejlődése és modernizálása érdekében, továbbá építkezéshez szükséges alapvető alapanyag becsült költségének pontosabb érték adásához, célunk a mértékegység átváltást digitalizálni, és egy webes felületet adni neki. A kézzel való átváltásnak hátrányait és hibáit figyelembe véve egy digitális felület ezeket orvosolni tudná, amit szeretnénk hogy az alkalmazottunk minden eszközön el tudjon érni online.
 
-Ide jöhetne még az is, hogy minden rendszeren, reszponzív felület kellene a cégnek (==> ezért választunk webes alkalmazást)
-
+A web oldal könnyedén üzemeltethető/kezelhető legyen. Platformfüggetlen technológiával készüljön.
+Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
+Az online megjenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
 
 ## 3. Jelenlegi üzleti folyamatok
