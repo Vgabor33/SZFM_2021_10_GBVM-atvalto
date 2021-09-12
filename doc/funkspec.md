@@ -67,7 +67,7 @@ Milyen helyzetben és mire használható a program.
 
 A webalkalmazás kinézetének terve:
 
-    ![Képernyőterv](../blob/master/images/kepernyo-terv.png?raw=true)
+![Képernyőterv](/images/kepernyo-terv.png)
 
 A színválasztás még nem végleges, viszont a kép remekül bemutatja az alakalmazás elrendezésének tervét.
 
