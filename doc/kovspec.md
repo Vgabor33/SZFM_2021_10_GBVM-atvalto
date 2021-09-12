@@ -81,9 +81,3 @@ A weboldalnak illeszkednie kell a használt eszköz képernyőjéhez.
 * [K06] Helyi adatfeldolgozás
 * [K07] Pontos számítás
 * [K08] Oda-vissza működő átváltás
-
-
-
-## 6. Fogalomszótár
-
-(Ha kell)
