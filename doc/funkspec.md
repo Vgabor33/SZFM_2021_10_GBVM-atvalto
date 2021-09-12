@@ -1,8 +1,6 @@
 # Átváltó Funkcióspecifikáció
 
---Ugyan az mint a kov spec-ben--
 
-Ezt a felhasználó szempontjából kell elkészíteni.
 
 ## 1. Jelenlegi helyzet
 
@@ -17,6 +15,14 @@ A vállalat fejlődése és modernizálása érdekében, továbbá építkezésh
 A web oldal könnyedén üzemeltethető/kezelhető legyen. Platformfüggetlen technológiával készüljön.
 Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
 Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
+## 3. Jelenlegi üzleti folyamatok
+
+
+
+## 4. Igényelt üzleti folyamatok
+
+
+
 
 ## 5. A rendszerre vonatkozó szabályok
 
@@ -36,13 +42,28 @@ A weboldal telefonról is használható kell hogy legyen.
 
 A weboldalnak illeszkednie kell a használt eszköz képernyőjéhez.
 
-## 6. Használati esetek
+
+
+## 6. Követelménylista
+
+* [K01] Hordozhatóság
+* [K02] Reszponzív dizájn
+* [K03] Rendszerfüggetlenség
+* [K04] Gyors működés
+* [K05] Könnyű kezelhetőség
+* [K06] Helyi adatfeldolgozás
+* [K07] Pontos számítás
+* [K08] Oda-vissza működő átváltás
+
+
+
+## 7. Használati esetek
 
 Milyen helyzetben és mire használható a program.
 
 
 
-## 7. Képernyőtervek
+## 8. Képernyőtervek
 
 Pár kép, hogyan is fog kinézni az app.
 
@@ -59,6 +80,6 @@ Lenyíló listából kiválasztja hogy milyen mértékegységet akar átvaltani 
 ### 9.3 A felhasználó leolvassa az átváltott számot
 A szám átváltásra kerül, ezt a felhasználó leolvassa.
 
-## 9. Fogalomszótár
+## 10. Fogalomszótár
 
 (Ha kell)
