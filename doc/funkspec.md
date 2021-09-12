@@ -65,9 +65,11 @@ Milyen helyzetben és mire használható a program.
 
 ## 8. Képernyőtervek
 
-Pár kép, hogyan is fog kinézni az app.
+A webalkalmazás kinézetének terve:
 
+    ![Képernyőterv](/images/kepernyo-terv.png)
 
+A színválasztás még nem végleges, viszont a kép remekül bemutatja az alakalmazás elrendezésének tervét.
 
 ## 9. Forgatókönyvek
 
