@@ -59,7 +59,7 @@ A weboldalnak illeszkednie kell a használt eszköz képernyőjéhez.
 
 ## 7. Használati esetek
 
-Milyen helyzetben és mire használható a program.
+A program a cég bármelyik alkalmazottja által használható a mértékegységek közti átváltásra. Az alkalmazás bármilyen olyan helyzetben használható, ahol mértékegységek közti átváltásra van szüksége a cég alkalmazottjainak. Az átváltó alkalmas ezen felül még a visszaellenőrzésre is, hiszen könnyen visszaellenőrizhető egy fejben történt átváltás, vagy ellenőrizhetünk korábbi, a rendszer használata előtt számolt átváltásokat is.
 
 
 
