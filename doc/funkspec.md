@@ -81,7 +81,3 @@ Lenyíló listából kiválasztja hogy milyen mértékegységet akar átvaltani 
 
 ### 9.3 A felhasználó leolvassa az átváltott számot
 A szám átváltásra kerül, ezt a felhasználó leolvassa.
-
-## 10. Fogalomszótár
-
-(Ha kell)
