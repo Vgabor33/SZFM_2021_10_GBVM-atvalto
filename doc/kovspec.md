@@ -73,12 +73,15 @@ A weboldalnak illeszkednie kell a használt eszköz képernyőjéhez.
 
 ## 6. Követelménylista
 
-Követelmények listája például:
-
 * [K01] Hordozhatóság
 * [K02] Reszponzív dizájn
 * [K03] Rendszerfüggetlenség
-* [K03] Helyi adatfeldolgozás
+* [K04] Gyors működés
+* [K05] Könnyű kezelhetőség
+* [K06] Helyi adatfeldolgozás
+* [K07] Pontos számítás
+* [K08] Oda-vissza működő átváltás
+
 
 
 ## 6. Fogalomszótár
