@@ -50,15 +50,14 @@ Pár kép, hogyan is fog kinézni az app.
 
 ## 9. Forgatókönyvek
 
-A felhasználónak váltania kell valamely mértékegységek  között.
+###  9.1 A felhasználó belép a weboldalra.
+Kiválasztja a kívánt mértékegység rendszert, a weboldal nyelvét és azt hogy melyik orszából származik.
 
-Kiválasztja azt a fajta mértékegységet (pl.hossz) amire szüksége van.
+### 9.2 A felhasználó megadja az átváltandó számot.
+Lenyíló listából kiválasztja hogy milyen mértékegységet akar átvaltani és megadja a pontos számot.
 
-Lenyiló listából kiválasztja hogy milyen egységből milyen egységbe akar váltani.
-
-Szövegdobozban megadja az átváltandó számot.
-
-Másik szövegdobozol leolvassa az átváltott számot.
+### 9.3 A felhasználó leolvassa az átváltott számot
+A szám átváltásra kerül, ezt a felhasználó leolvassa.
 
 ## 9. Fogalomszótár
 
