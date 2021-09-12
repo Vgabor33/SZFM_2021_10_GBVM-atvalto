@@ -18,6 +18,23 @@ A web oldal könnyedén üzemeltethető/kezelhető legyen. Platformfüggetlen te
 Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
 Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
+## 5. A rendszerre vonatkozó szabályok
+
+A weboldalt HTML-ben legyen írva.
+
+A weboldal funkcionalitása Javascript-el legyen megoldva.
+
+A weboldal CSS stíluslappal legyen formázva.
+
+A weboldalhoz használt képek csak PNG formátumúak lehetnek.
+
+A CSS és Javascrip része a weboldalnak külön fileban kell lenniük, nem lehetnek benne a HTML fileban.
+
+A weboldalnak tudnia kell offline módban működni.
+
+A weboldal telefonról is használható kell hogy legyen.
+
+A weboldalnak illeszkednie kell a használt eszköz képernyőjéhez.
 
 ## 6. Használati esetek
 
@@ -31,11 +48,17 @@ Pár kép, hogyan is fog kinézni az app.
 
 
 
-## 8. Forgatókönyvek
+## 9. Forgatókönyvek
 
-A felhasználó hogyan tudja használni az app-ot, (lépésenkénti leírás)
+A felhasználónak váltania kell valamely mértékegységek  között.
 
+Kiválasztja azt a fajta mértékegységet (pl.hossz) amire szüksége van.
 
+Lenyiló listából kiválasztja hogy milyen egységből milyen egységbe akar váltani.
+
+Szövegdobozban megadja az átváltandó számot.
+
+Másik szövegdobozol leolvassa az átváltott számot.
 
 ## 9. Fogalomszótár
 
