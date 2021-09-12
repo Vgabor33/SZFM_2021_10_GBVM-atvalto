@@ -56,12 +56,19 @@ Egyes mértékegységek előre betáplálása a rendszerbe, hogy az építő kö
 ## 5. A rendszerre vonatkozó szabályok
 
 A weboldalt HTML-ben legyen írva.
+
 A weboldal funkcionalitása Javascript-el legyen megoldva.
+
 A weboldal CSS stíluslappal legyen formázva.
+
 A weboldalhoz használt képek csak PNG formátumúak lehetnek.
+
 A CSS és Javascrip része a weboldalnak külön fileban kell lenniük, nem lehetnek benne a HTML fileban.
+
 A weboldalnak tudnia kell offline módban működni.
+
 A weboldal telefonról is használható kell hogy legyen.
+
 A weboldalnak illeszkednie kell a használt eszköz képernyőjéhez.
 
 ## 6. Követelménylista
