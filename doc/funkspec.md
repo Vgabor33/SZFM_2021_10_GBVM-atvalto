@@ -4,6 +4,19 @@
 
 Ezt a felhasználó szempontjából kell elkészíteni.
 
+## 1. Jelenlegi helyzet
+
+Sett Construction Company, nemzetközi építkezési vállalat rendelkezik olyan kliensekkel akik imperial rendszert használnak, emiatt ezeket át kell váltaniuk náluk standard metric rendszerbe. A terepfelmérésre, és alapanyag becslésre így papír alapú táblázatot visznek magukkal, ami alapján kézileg kell elvégezni a számításokat, ezek eredménye segítségével mérik fel a költségeket, amit később felszámolnak az alapdíjra a megbízónak.
+
+
+
+## 2. Vágyott rendszer
+
+A vállalat fejlődése és modernizálása érdekében, továbbá építkezéshez szükséges alapvető alapanyag becsült költségének pontosabb érték adásához, céljuk a mértékegység átváltást digitalizálni, és egy webes felületet adni neki. A kézzel való átváltásnak hátrányait és hibáit figyelembe véve egy digitális felület ezeket orvosolni tudná, amit szeretnénk hogy az alkalmazottak minden eszközön el tudjon érni online.
+
+A web oldal könnyedén üzemeltethető/kezelhető legyen. Platformfüggetlen technológiával készüljön.
+Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
+Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
 
 ## 6. Használati esetek

@@ -14,7 +14,7 @@ A vállalatunk fejlődése és modernizálása érdekében, továbbá építkez�
 
 A web oldal könnyedén üzemeltethető/kezelhető legyen. Platformfüggetlen technológiával készüljön.
 Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
-Az online megjenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
+Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 
 
 ## 3. Jelenlegi üzleti folyamatok
