@@ -17,46 +17,44 @@ Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető r
 Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
 ## 3. Jelenlegi üzleti folyamatok
 
-### 3.1. A megrendelés terveinek elkészítése
+### 3.1. A termék megtervezése.
+A tervek elkészítése az anyaországban. =>  
+A helyszín felmérése. =>  
+A helyszíni munka megszervezése. (munkaerő felfogadása)
 
-A mérnökök az anyaroszágban készítik el a terveket a saját mértékegységrendszerükkel, majd a megrendelést a megrendelő által kívánt helyszínen (világszerte bárhol), helyi munkaerővel valósítja meg a cég.
+### 3.2. Építési fázis.
+A tervek szükséges adaptálása. =>  
+Az építkezés elvégzése.
 
-### 3.2. A megrendelés kivitelezése
+#### 3.2.1. Egy adott mérés felvétele.
+A munkás a tervről leolvassa a mérést és mértékegységet. =>  
+Ha ismeri, és képes a kimérés elvégzésére az elérhető eszközökkel, akkor [[3.2.1.1.]](#3211), egyébként [[3.2.1.2.]](#3212)
 
-A helyszínre 2-3 építkezésfelügyelőt rendel ki a cég, hogy biztosítsák a megrendelt termék minőségét.
+##### 3.2.1.1.
+A mérés felvétele, a munka továbbhalad.
 
-A termék egyedi tulajdonságaiból fakadóan több nemszabványos mértékegység is szerepelhet a tervekben.
-
-### 3.3. Mértékegységátváltó táblázatok használata
-
-Egy mérnök a helyszínen átváltja a kívánt méréseket az adott mértékegységre számológép és egy speciális táblázat használatával.  
--> Számítási hibák.
-
-Ha egy építő tudni szeretne egy mérést az általa kívánt mértékegységben, akkor megkérdezi a helyszínen lévő mérnököt.
-
-Az építő nem alkalmas a táblázat papírjának fenntartására valamint a szükséges, néha többlépéses számítások elvégzésére.  
--> Valamilyen fizikailag reziliens eszköz kellene.
+##### 3.2.1.2.
+A helyszíni mérnök konzultálása. =>  
+A mérnök által átváltott mértékegységgel továbhaladva, [[3.2.1.1.]](#3211)
 
 ## 4. Igényelt üzleti folyamatok
 
-### 4.1. A megrendelés terveinek elkészítése
+### 4.1. A termék megtervezése.
+Változatlan.
 
-A tervet készítő mérnökök munkájának változatlanak kell maradnia.  
--> Minimum egy szinttel lentebb kell megoldást keresni.
+### 4.2. Építési fázis.
+Változatlan.
 
-### 4.2. A mértékegységátváltás elérhetővé tétele
+#### 4.2.1. Egy adott mérés felvétele.
+A munkás a tervről leolvassa a mérést és mértékegységet. =>  
+Ha ismeri, és képes a kimérés elvégzésére az elérhető eszközökkel, akkor [[4.2.1.1.]](#4211), egyébként [[4.2.1.2.]](#4212)
 
-Egy olyan megoldás, amely lehetővé teszi a mértékegységek átváltását az építők által.  
--> Sok ugyanolyan, sztenderdizált eszköz.
+##### 4.2.1.1.
+A mérés felvétele, a munka továbbhalad.
 
-Ha egy építő tudni szeretne egy mérést az általa kívánt mértékegységben, akkor el tudja ő maga is gyorsan, könnyen, pontosan végezni az átváltást, a helyszíni mérnökök erőforrásait nem felhasználva.  
--> Egyszerű, intuitív felület.
-
-Az építő a mértékegységátváltásra egy már meglévő eszközt használ, amelyet már ismer, és vagy tapasztalt a kezelésében vagy kezelése eléggé intuitív.  
--> Okostelefon?
-
-Egyes mértékegységek előre betáplálása a rendszerbe, hogy az építő könnyen érje el őket.  
--> Valamiféle perzisztens tár.
+##### 4.2.1.2.
+A mértékegységátváltás elvégzése egy eszköz segítségével, a munkás által, külső beavatkozás nélkül. =>  
+Az átváltott mértékegységgel továbhaladva, [[4.2.1.1.]](#4211)
 
 
 ## 5. A rendszerre vonatkozó szabályok
