@@ -63,7 +63,7 @@ Az átváltott mértékegységgel továbhaladva, [[4.2.1.1.]](#4211)
 
 ## 5. A rendszerre vonatkozó szabályok
 
-A weboldalt HTML-ben legyen írva.
+A weboldal HTML-ben legyen írva.
 
 A weboldal funkcionalitása Javascript-el legyen megoldva.
 
@@ -71,13 +71,13 @@ A weboldal CSS stíluslappal legyen formázva.
 
 A weboldalhoz használt képek csak PNG formátumúak lehetnek.
 
-A CSS és Javascrip része a weboldalnak külön fileban kell lenniük, nem lehetnek benne a HTML fileban.
+A CSS és Javascript részei a weboldalnak külön állományokban kell lenniük, nem lehetnek benne a HTML fájlban.
 
-A weboldalnak tudnia kell offline módban működni.
+A weboldalnak funkcionálisnak kell maradnia hálózati kapcsolat hiányában is.
 
 A weboldal telefonról is használható kell hogy legyen.
 
-A weboldalnak illeszkednie kell a használt eszköz képernyőjéhez.
+A weboldalnak igazodina kell a használt eszköz képernyőjéhez.
 
 ## 6. Követelménylista
 
