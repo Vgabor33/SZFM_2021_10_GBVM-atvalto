@@ -12,11 +12,12 @@ A terepfelmérésre és alapanyag-becslésre így papír alapú táblázatot has
 
 ## 2. Vágyott rendszer
 
-A vállalatunk fejlődése és modernizálása érdekében, továbbá építkezéshez szükséges alapvető alapanyag becsült költségének pontosabb érték adásához, célunk a mértékegység átváltást digitalizálni, és egy webes felületet adni neki. A kézzel való átváltásnak hátrányait és hibáit figyelembe véve egy digitális felület ezeket orvosolni tudná, amit szeretnénk hogy az alkalmazottunk minden eszközön el tudjon érni online.
+A vállalatunk fejlődése és modernizálása érdekében, továbbá építkezéshez szükséges alapvető alapanyag becsült költségének pontosabb értékadásához, célunk a mértékegység átváltást digitalizálni, és egy webes felületet adni neki.
+A kézzel való átváltásnak hátrányait és hibáit egy digitális felület orvosolni tudná, amit szeretnénk hogy az alkalmazottunk minden eszközön el tudjon érni online.
 
-A web oldal könnyedén üzemeltethető/kezelhető legyen. Platformfüggetlen technológiával készüljön.
+A weboldal könnyedén üzemeltethető/kezelhető legyen. Platformfüggetlen technológiákkal készüljön.
 Nem elfogadható csak Microsoft Windows operációs rendszeren üzemeltethető rendszerre vonatkozó javaslat.
-Az online megjelenés lehetőleg mobil telefonon, tableten is működjön, reszponzív felülettel.
+Az online megjelenés lehetőleg okostelefonon, tableten is működjön, reszponzív felülettel.
 
 
 ## 3. Jelenlegi üzleti folyamatok
