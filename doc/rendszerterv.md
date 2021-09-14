@@ -18,6 +18,55 @@ Rendszer létrehozásához használt erőforrások leírása. Tartalmazza még a
 
 Leírja a rendszer által támogatott vagy kiváltott folyamatokat, úgy hogy minden folyamatnál egy bemenetből indulunk, megadjuk hogy kik/mik szerepelnek a folyamatban, és mit eredményez a folyamat.
 
+### 3.1. A mértékegységátváltás
+#### 3.1.1. Szereplők:
+ * Munkás
+
+#### 3.1.2. Erőforrások:
+ * Weboldal megjelenítésére képes eszköz
+ * (Távoli szerver)
+ * (Internet- vagy lokális hálózati kapcsolat)
+ 
+#### 3.1.3. Bemenet:
+ * Mértékegység és mérőszám
+
+#### 3.1.4. Entitások:
+ * A mértékegységátváltó weboldal
+
+#### 3.1.5. Kimenet:
+ * Építő által ismert mértékegység
+
+#### 3.1.6. Folyamat:
+
+Egy építő egy mérést szeretne elvégezni =>  
+Leolvassa a mértékegységet a tervről =>  
+Mérlegeli hogy a mértékegység megfelelő-e. Ha igen, a folymat végetért. Ha nem, akkor =>  
+Elővesz egy weboldal megjelenítésére képes tetszőleges eszközt =>  
+Megnyitja vagy a lokális lementett weboldalt, vagy a távoli helyen hostolt weboldalt =>  
+Elvégzi az átváltást és folytatja a munkát.
+
+#### 3.1.7. Folyamatábra
+![folyamatábra kép](/images/atvaltas-folyamatabra.png)
+
+#### 3.1.8. Példák
+
+##### 3.1.8.1. Példa 1:
+
+Egy építő szeretne egy epítési elemet méretre vágni. =>  
+Konzultál a tervekkel, melyekről leolvassa a `150 in` mérőszámot és mértékegységet. =>  
+Mivel az általa használt eszközök egyike se rendelkezik `inch`-es mérővel, át kell váltania a mérést `centiméter`-be. =>  
+Előveszi a céges mobiltelefonját. =>  
+Felkeresi a cég belső mértékegységátváltó weboldalát. =>  
+Átváltja a `150 in`-t `381 cm`-re, amellyel már tudja konfigurálni a megfelelő eszközöket.
+
+##### 3.1.8.2. Példa 2:
+
+Egy minőségellenőr szeretné ellenőrizni egy tartály nyomásbíró képességét. =>  
+Leolvassa a tervekről, hogy a tartálynak `30 atm` nyomást kell kibírnia. =>  
+Mivel a rendelkezésre álló pumpa csak `kilopascal` beosztásokkal rendelkezik, mértékegységátváltás szükséges. =>  
+Előveszi a céges laptopját, mely biztonsági okokból nem rendelkezik hálózati kapcsolattal. =>  
+Megnyitja az idő előtt lokálisan eltárolt weboldalt. =>  
+Átváltja a `30 atm`-t `3039.75 kPa`-ra, így folytathatja a munkát.
 
 
 ## 4. Követelmények
