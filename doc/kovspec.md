@@ -4,9 +4,11 @@
 
 ## 1. Jelenlegi helyzet
 
-Sett Construction Company, nemzetközi építkezési vállalatunk rendelkezik olyan kliensekkel akik imperial rendszert használnak, emiatt ezeket át kell váltanunk nálunk standard metric rendszerbe. A terepfelmérésre, és alapanyag becslésre így papír alapú táblázatot viszünk magunkkal, ami alapján kézileg kell elvégezni a számításokat, ezek eredménye segítségével mérjük fel a költségeket, amit később felszámolunk az alapdíjra a megbízónak.
+Sett Construction Company, nemzetközi építkezési vállalatunk rendelkezik olyan kliensekkel akik tőlünk eltérő mértékegységrendszereket használnak.
 
+Ilyen klienseknél méréseinket át kell váltanunk a kliens által használt mértékegységrendszerbe.
 
+A terepfelmérésre és alapanyag-becslésre így papír alapú táblázatot használunk, ami alapján kézileg kell elvégezni az átváltáshoz szükséges számításokat, ezek eredménye segítségével mérjük fel a költségeket, amelyeket később felszámolunk az alapdíjra a megbízónak.
 
 ## 2. Vágyott rendszer
 
