@@ -114,8 +114,15 @@ Majd leolvassa a [3] mezőben szereplő átváltott mérőszámot.
 
 ## 6. Fizikai környezet
 
-Meghatározzuk, hogy mivel és mire fejlesztünk. Ezen kívül le kell írni, hogy milyen plusz a szolgáltatás/hardware szükséges majd a rendszer működéséhez.
-
+Az alkalmazás web platformra, hordozható eszközökre (okostelefonok, táblagépek) készül.
+- Nincsenek megvásárolt komponenseink.
+- Kliens által biztosított szükséges eszközök:
+    - Webszerver
+    - Okoseszköz
+- Fejlesztői eszközök:
+    - VSC
+    - Onenote
+    - git
 
 
 ## 7. Absztrakt domain modell
