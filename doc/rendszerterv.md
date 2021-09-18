@@ -13,7 +13,40 @@ Az átváltott mérőszámot egyszerűen letudja majd olvasni az alkalmazott, va
 
 ## 2. Projektterv
 
-Rendszer létrehozásához használt erőforrások leírása. Tartalmazza még a szerepkörök egyértelműsítését, illetve ütemtervet és mérföldköveket határoz meg.
+A projekt  HTML,CSS és JavaScript nyelveken fog készülni.
+
+A fejlesztőcsapat a saját számítógépeiken fogja fejleszteni az alkalmazást, illetve a későbbi tesztelés is először ezeken az eszközökön fog végbemenni.
+
+A fejlesztőcsapat négy fejlesztőből áll, akik a nekik a csapatvezető által kiosztott projektrészért felelnek, illetve az egyénileg létrehozott részek teszteléséért is ők felelnek.
+Személyenkénti projektrészek:
+* Kóti Bence    - HTML (design)
+* Sándor Milán  - CSS
+* Veress Gábor  - HTML (CSS és JavaScript összekötése, Javascript működés az elemekhez kapcsolása)
+* JavaScript    - Nagy Viktor Márk
+
+### Mérföldkövek
+
+    [M-01] - Szerepek egyértelműsítése és a projekthez szükséges állományok létrehozása, valamint a fájlok összekapcsolása
+
+    [M-02] - A HTML weblap kinézetének illetve a reszponzívitás megléte
+
+    [M-03] - A JavaScript osztályok a HTML oldalhoz való integrációja
+
+    [M-04] - Tesztelés
+
+    [M-05] - Kész állapot
+
+
+### Ütemterv
+
+    1. [M-01]-ben megfogalmazott mérföldkő elérése, ehhez egy meeting, ahol a csapat pontosan kiosztja a feladatokat, és pontos időpontokat szab a részfeladatok elkészítésre 
+
+    2. [M-02]-ben megfogalmazott mérföldkő elérése, azaz a HTML és CSS fejlesztők nekilátnak az oldal kinézetének és reszponzívitásának kidolgozásának
+
+    3. [M-03]-ben megfogalmazott mérföldkő elérése, azaz a HTML és JavaScript összekapcsolása
+
+    4. Kész állapot elérésére törekvés illetve tesztek végrehajtása
+
 
 
 
