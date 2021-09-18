@@ -105,9 +105,22 @@ Megnyitja az idő előtt lokálisan eltárolt weboldalt. =>
 
 ## 4. Követelmények
 
-Követelménylistából kifejtjük, hogy mit és hogyan akarunk megvalósítani.
-
-
+### [K01] Hordozhatóság
+    A hordozhatóság megvalósítása az internetre való kihelyezéssel, illetve a helyileg elérhető fájlokkal fog megvalósulni.
+### [K02] Reszponzív dizájn
+    A reszponzivítás a HTML és CSS segítségével lesz megvalósítva.
+### [K03] Rendszerfüggetlenség
+    A rendszerfüggőség a böngészőben való futattással lesz kiküszöbölve.
+### [K04] Gyors működés
+    Mivel böngészőben elérhető lesz az alkalmazás, így biztosítva van a gyors működés.
+### [K05] Könnyű kezelhetőség
+    A könnyű kezelhetőség azzal lesz megvalósítva, hogy a felhasználó mintha csak a web-en böngészne, az átváltó egy weblapként lesz megjelenítve és azon könnyen eligazodhat.
+### [K06] Helyi adatfeldolgozás
+    A számítások JavaScript-ben fognak futni, és így nincs szükség azok elküldésére külső szerver részére.
+### [K07] Pontos számítás
+    Mivel a számítások a számítógép által lesznek elvégezve, így pontosak lesznek.
+### [K08] Oda-vissza működő átváltás
+    Az átváltás két írányú lesz, mégpedig úgy, hogy egy átváltás elvégzése után lehetőség lesz egy gombbal megváltoztatni az átváltás írányát, és ilyenkor az előzőekben átváltott adatok automatikusan beírásra kerülnek.
 
 ## 5. Funkcionális terv
 
