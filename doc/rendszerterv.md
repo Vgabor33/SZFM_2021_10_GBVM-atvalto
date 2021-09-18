@@ -120,9 +120,13 @@ Az alkalmazás web platformra, hordozható eszközökre (okostelefonok, táblag�
     - Webszerver
     - Okoseszköz
 - Fejlesztői eszközök:
-    - VSC
+    - Visual Studio Code
     - Onenote
     - git
+- Tesztelési környezet:
+    - Chrome
+    - Firefox
+    - Microsoft Edge
 
 
 ## 7. Absztrakt domain modell
