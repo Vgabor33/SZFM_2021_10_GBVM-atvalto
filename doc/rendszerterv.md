@@ -16,8 +16,6 @@ Rendszer létrehozásához használt erőforrások leírása. Tartalmazza még a
 
 ## 3. Üzleti folyamatok modellje
 
-Leírja a rendszer által támogatott vagy kiváltott folyamatokat, úgy hogy minden folyamatnál egy bemenetből indulunk, megadjuk hogy kik/mik szerepelnek a folyamatban, és mit eredményez a folyamat.
-
 ### 3.1. A mértékegységátváltás
 #### 3.1.1. Szereplők:
  * Munkás
@@ -77,8 +75,38 @@ Követelménylistából kifejtjük, hogy mit és hogyan akarunk megvalósítani.
 
 ## 5. Funkcionális terv
 
-Funk. spec alapján, mint fejlesztők, kell leírni a funkcióit a rendszernek, ezekhez használati eseteket felvenni ((+ ide jöhet a funk. spec-es képernyőterv))
+### 5.1. Az elkészítendő rendszer tulajdonságai
+Egy weboldal (vagy weboldalak), mely
+ * hordozható (statikus), hogy lokálisan is használni lehessen
+ * reszponzív, hogy mobil eszközökről is kényelmesen használható legyen
 
+### 5.2. Renszerszereplők
+ * Weboldal
+ * (Webszerver - Kliens által biztosított)
+ * (Okoseszköz - Kliens által biztosított)
+
+### 5.2. Rendszerhasználati esetek és lefutásaik
+#### 5.2.1. Mértékegységátváltás
+##### 5.2.1.1. Funkcionalitás leírása
+
+Legyen a weboldalon egy bemeneti mező, melybe tetszőleges (mérő)számot be lehet írni [1],  
+egy mértékegység mező, melyben előre meghatározott értékek közül lehet kiválasztani a bemeneti mezőben szereplő számhoz tartozó mértékegységet [2],  
+egy kimeneti mező, melybe az átváltás eredménye kerül [3],  
+valamint egy kimeneti értékhez tartozó mértékegység kiválasztására alkalmas mező [4].
+
+Az átváltás folyamata legyen automatikus, tehát az eredmény frissüljön minden egyes bemenet-változáskor, mivel az átváltás nem igényel különösebb számítási kapacitást.
+
+![Képernyőterv](/images/kepernyo-terv-annotated.png)
+##### 5.2.1.2. Példa használati eset / lefutás
+Egy építő el szeretne végezni egy mérékegységátváltást =>  
+Egy okoseszközén előveszi a vagy lokális másolatát, vagy távoli szerverről kiszolgált változatát a weboldalnak =>  
+Elvégzi az alábbi folyamatokat tetszőleges sorrendben:
+ * Kiválasztja az eredeti mértékegységet a [2] mezőben.
+ * Felviszi az eredeti mérőszámot az [1] mezőben.
+ * Kiválasztja a kívánt mértékegységet a [4] mezőben.
+
+=>  
+Majd leolvassa a [3] mezőben szereplő átváltott mérőszámot.
 
 
 ## 6. Fizikai környezet
