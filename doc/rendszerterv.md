@@ -4,8 +4,11 @@
 
 ## 1. Rendszer célja
 
-Leírja mire lesz jó a rendszer, és a tisztázza a problémát aminek a megoldását várjuk a rendszertől.
-
+A rendszer célja, hogy a cég alkalmazottjának ne okozzon problémát ha más mértékegységekkel találkozik a terepen. 
+A felhasználó kap egy felületet, amin egyszerűen és gyorsan áttudja váltani a számára nem megfelelő mértékegységű értékeket. 
+A felület fontos hogy bárhol elérhető legyen, ott is ahol internet szolgáltatás nincsen, ezért webes felületen kívül, tetszőlegesen a kliens által választott okos eszközre telepíthető lesz. 
+A rendszer minimalista felületet kap a gyors eredmény kiszámítása érdekében. 
+Az átváltott mérőszámot egyszerűen letudja majd olvasni az alkalmazott, vagy ha arra igényt tart bárhova átmásolhatja, ha tervez más alkalmazással számítást végezni vele.
 
 
 ## 2. Projektterv
@@ -50,7 +53,7 @@ Elvégzi az átváltást és folytatja a munkát.
 
 ##### 3.1.8.1. Példa 1:
 
-Egy építő szeretne egy epítési elemet méretre vágni. =>  
+Egy építő szeretne egy építési elemet méretre vágni. =>  
 Konzultál a tervekkel, melyekről leolvassa a `150 in` mérőszámot és mértékegységet. =>  
 Mivel az általa használt eszközök egyike se rendelkezik `inch`-es mérővel, át kell váltania a mérést `centiméter`-be. =>  
 Előveszi a céges mobiltelefonját. =>  
