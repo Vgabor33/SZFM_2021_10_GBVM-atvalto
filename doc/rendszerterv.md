@@ -177,9 +177,11 @@ Az alkalmazás web platformra, hordozható eszközökre (okostelefonok, táblag�
 
 ## 7. Absztrakt domain modell
 
-Nagyvonalú rendszerleírás, pár példával.
+A rendszer alapja egy HTML, egy CSS és egy JavaScript fájl lesznek. A HTML és CSS fájlok a megjelenítésért felelnek, míg a JavaScript-ben lesznek azok a függvények, melyek a számításokat végzik majd.
 
+Nagyvonalú rendszerműködés szemléltetését a következő kép végzi:
 
+![Absztrakt rendszermodell](/images/absztrakt-modell.png)
 
 ## 8. Architekturális terv
 
