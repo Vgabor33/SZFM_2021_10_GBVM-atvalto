@@ -113,16 +113,27 @@ Nagyvonalú rendszerleírás, pár példával.
 
 ## 11. Tesztterv
 
-Tesztelés menetének leírása, és a sikeresnek itélt tesztek kritériumait írja le.
+A teszt célja az átváltó helyességéről és platform függetlenségéről való megbizonyosodás.
 
+### Átváltó tesztelése
+A tesztelés során különböző értékeket próbálunk végig az átváltóban. Ha minden esetben helyes értéket ad vissza elkönyveljük hogy az ávtáltó működi.
 
+### Platformfüggetlenség tesztelése
+A weboldalt teszteljük több különböző fajta eszközökön (számítógép, okostelefon) és böngészőkben (firefox, opera, chrome). Ha minden esetben működik elkönyveljük hogy a weboldal platofrmfüggetlen.
 
 ## 12. Telepítési terv
 
-A rendszer működéséhez szükséges folyamatok leírása. + bele lehet írni a fizikai környezetben lévő specifikációkat
+A rendszer működéséhez csak három file szükséges ami egy tömörített fileban van megadva. Kétféle módon van lehetőség használni, ebből adódóan pedig kétféle telepítési mód van.
 
+### Online telepítés:
+- A fileok feltöltése egy weboldal hostolására alkalmas szerverre és az ehhez szükséges beállítások elvégzése (URL, címfordítás stb).
+- Ezután a weboldal elérhető bármely webböngészővel (chrome, opera stb) rendelkező eszközön, feltéve ha eléri a szervert.
+### Offline telepítés
+- Weboldal fileainak letöltése személyi eszközre (pl számítógép, okostelefon).
+- Fileok kicsomagolása egy könnyen elérhető mappába.
+- A weboldal az index.html fileon lesz elérhető.
 
 
 ## 13. Karbantartási terv
 
-Szoftverfrissítések és karbantartás mikéntjének leírása.
+**A weboldal egyszerűsége miatt nem igényel aktív karbantartást, elegendő a működés során felmerülő hibák javítása és alkalmankénti frissítés.**
