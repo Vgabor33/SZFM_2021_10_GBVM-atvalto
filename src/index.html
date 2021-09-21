@@ -1,0 +1,12 @@
+<script src='main.js'></script>
+
+<body onload="onLoad()">
+    <input type="number" value="1" oninput="updateResult(this.value)" id="input_number">
+    <select class="measurement-select" id="input_select" oninput="updateResult(this.value)">
+        <!-- Populated in JS -->
+    </select>
+    <input type="number" id="output_number">
+    <select class="measurement-select" id="output_select" oninput="updateResult(this.value)">
+        <!-- Populated in JS -->
+    </select>
+</body>
