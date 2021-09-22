@@ -1,12 +1,56 @@
-<script src='main.js'></script>
+<HTML>
+    <head>
+        <script src='main.js'></script>
+    </head>
 
-<body onload="onLoad()">
-    <input type="number" value="1" oninput="updateResult(this.value)" id="input_number">
-    <select class="measurement-select" id="input_select" oninput="updateResult(this.value)">
-        <!-- Populated in JS -->
-    </select>
-    <input type="number" id="output_number">
-    <select class="measurement-select" id="output_select" oninput="updateResult(this.value)">
-        <!-- Populated in JS -->
-    </select>
-</body>
+    <body onload="onLoad()">
+        
+            <H1>Imperial/Metric converter</H1>
+            <table>
+                <tr>
+                    <td>
+                        Imperial to metric
+                    </td>
+                    <td>
+                        Metric to imperial
+                    </td>
+                </tr>
+            </table>
+
+        <div>
+            Language:
+                <select name="Language_Select">
+                    <option value="eng">
+                        English
+                    </option>
+                    
+                    <option value="hun">
+                        Hungarian
+                    </option>
+                </select>
+                <BR>
+            </div>
+    
+            <div>
+            Country:
+                <select name="Country">
+                    <option value="US">USA</option>
+                    <option value="MM">Myanmar</option>
+                    <option value="LR">Liberia</option>
+                    <option value="OT">Other</option>
+                </select>
+            <BR>
+        </div>
+        
+        <input type="number" value="1" oninput="updateResult(this.value)" id="input_number">
+        <select class="measurement-select" id="input_select" oninput="updateResult(this.value)">
+            <!-- Populated in JS -->
+        </select>
+        <input type="number" id="output_number">
+        <select class="measurement-select" id="output_select" oninput="updateResult(this.value)">
+            <!-- Populated in JS -->
+        </select>
+
+        <input type="button" value="Reverse">
+    </body>
+</HTML>
