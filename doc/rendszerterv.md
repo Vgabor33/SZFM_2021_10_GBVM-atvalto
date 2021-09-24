@@ -203,14 +203,39 @@ Nagyvonalú rendszerműködés szemléltetését a következő kép végzi:
 
 ## 11. Tesztterv
 
-A teszt célja az átváltó helyességéről és platform függetlenségéről való megbizonyosodás.
+A teszt célja az átváltó helyes működésének tesztelése, illetve a rendszer platofrmfüggetlenségéről való megbizonyodás.
 
-### Átváltó tesztelése
-A tesztelés során különböző értékeket próbálunk végig az átváltóban. Ha minden esetben helyes értéket ad vissza elkönyveljük hogy az ávtáltó működi.
+### Teszt jegyzet sablon
+
+Tesztelő neve:
+___
+
+Teszelt rendszer:
+___
+
+Kapott eredmény:
+___
+
+Várt eredmény: 
+___
+Teszt konkluzió: 
+___
+Egyéb megjegyzés
+___
+
+### Átváltó helyességének tesztelése
+Az első teszt amit a weboldalon végzünk miután elkészült, esetleg azután hogy maga az átváltó használhatóvá válik.
+
+Az átváltót manuálisan tesztelik a fejlesztők. A teszt során egy vagy több átváltást végeznek, aminek a végeredményével mindig tisztában vannak. Ha a végeredmény megegyezik a várt eredménnyel a tesztet sikernek könyvelik el, ellenkező esetben a teszt sikertelen   és az átváltó egy része hibás.
 
 ### Platformfüggetlenség tesztelése
-A weboldalt teszteljük több különböző fajta eszközökön (számítógép, okostelefon) és böngészőkben (firefox, opera, chrome). Ha minden esetben működik elkönyveljük hogy a weboldal platofrmfüggetlen.
+A weboldalnak elérhetőnek kell lennie, mind szerver szolgáltató által, mind végfelhasználói eszközröl futtatva.
 
+Szerverről való működés tesztelése során letöltjük a fileokat egy szerver szolgáltatást futtató számítógépre és megpróbáljuk elérni egy azonos hálózatban lévő eszközröl (okostelefon és számítógép).
+
+A helyi eszközről való futtatás tesztelése során a weboldalt letöltjük több különböző eszközre (okostelefon, számítógép), különböző verziószámokkal.
+
+Amennyiben a weboldalt minden esetben képesek voltunk futtatni a teszt sikeres.
 ## 12. Telepítési terv
 
 A rendszer működéséhez csak három file szükséges ami egy tömörített fileban van megadva. Kétféle módon van lehetőség használni, ebből adódóan pedig kétféle telepítési mód van.
