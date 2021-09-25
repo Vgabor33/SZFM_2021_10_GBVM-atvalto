@@ -28,7 +28,7 @@ Személyenkénti projektrészek:
 | ---------------- | -------------------------------------------------------------------------------- |
 | Kóti Bence       | HTML (design)                                                                    |
 | Sándor Milán     | CSS                                                                              |
-| Veress Gábor     | HTML (CSS és JavaScript összekötése, Javascript működés az elemekhez kapcsolása) |
+| Veress Gábor     | HTML,CSS és JavaScript kiegészítések |
 | Nagy Viktor Márk | JavaScript                                                                       |
 
 
