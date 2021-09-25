@@ -1,0 +1,29 @@
+body {
+    background-color: whitesmoke;
+    margin: 5% 20%;
+}
+
+h1 {
+    border: 5px solid navy;
+    border-radius: 10px;
+    background-color: navy;
+
+    text-align: center;
+    color: white;
+    font-size: 300%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    font-weight: bold;
+    font-size: 200%;
+}
+
+td:last-child {
+    text-align: right;
+}
+
+
