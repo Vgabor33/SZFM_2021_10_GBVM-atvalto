@@ -26,4 +26,22 @@ td:last-child {
     text-align: right;
 }
 
+div {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-weight: bold;
+}
+
+select:first-child {
+    background-color: navy;
+    color: white;
+    font-weight: bold;
+}
+
+.measurement-select {
+    background-color: lightgray;
+    font-weight: bold;
+}
+
 
