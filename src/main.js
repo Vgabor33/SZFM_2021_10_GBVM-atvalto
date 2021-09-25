@@ -10,8 +10,8 @@ class Measurement {
     /**
      * @param {string} group the mesurement group
      * @param {string} name the measurement name
-     * @param {Fun1} normalize the normalization function
-     * @param {Fun1} transform the transform funtion
+     * @param {Fun1} normalize the normalization function which transforms the units to the chosen base unit
+     * @param {Fun1} transform the transform funtion which transforms the base unit to this one
      */
     constructor(group, name, normalize, transform) {
         this.group = group
@@ -37,18 +37,19 @@ class CustomMeasurement extends Measurement {
 }
 
 const measurements = [
-          new Measurement("length",         "cm",    x => x,                    x => x),
-          new Measurement("length",         "m",     x => x * 100,              x => x / 100),
-          new Measurement("length",         "in",    x => x * 2.54,             x => x / 2.54),
-    
-          new Measurement("pressure",       "Pa",    x => x,                    x => x),
-          new Measurement("pressure",       "atm",   x => x / 101325,           x => x * 101325),
-          new Measurement("pressure",       "bar",   x => x / 100000,           x => x * 100000),
-    
-          new Measurement("temperature",    "K",     x => x,                    x => x),
-          new Measurement("temperature",    "°C",    x => x + 273.15,           x => x - 273.15),
-          new Measurement("temperature",    "°F",    x => 5 / 9 * (x - 32),     x => 9 / 5 * x +32),
-    new CustomMeasurement("temperature",    "°Ra",   "return x/1.8",           "return x*1.8")
+          /*              Measurement group,  Abrv,    Normalization function,    Transform function  */
+          new Measurement("length",           "cm",    x => x,                    x => x),
+          new Measurement("length",           "m",     x => x * 100,              x => x / 100),
+          new Measurement("length",           "in",    x => x * 2.54,             x => x / 2.54),
+      
+          new Measurement("pressure",         "Pa",    x => x,                    x => x),
+          new Measurement("pressure",         "atm",   x => x / 101325,           x => x * 101325),
+          new Measurement("pressure",         "bar",   x => x / 100000,           x => x * 100000),
+      
+          new Measurement("temperature",      "K",     x => x,                    x => x),
+          new Measurement("temperature",      "°C",    x => x + 273.15,           x => x - 273.15),
+          new Measurement("temperature",      "°F",    x => 5 / 9 * (x - 32),     x => 9 / 5 * x +32),
+    new CustomMeasurement("temperature",      "°Ra",   "return x/1.8",           "return x*1.8")
 ]
 const groups = new Set(measurements.map(x => x.group))
 
