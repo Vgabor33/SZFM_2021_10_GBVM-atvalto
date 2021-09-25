@@ -184,16 +184,16 @@ Az alkalmazás web platformra, hordozható eszközökre (okostelefonok, táblag�
 
 ## 7. Absztrakt domain modell
 
+TBA
+
+
+## 8. Architekturális terv
+
 A rendszer alapja egy HTML, egy CSS és egy JavaScript fájl lesznek. A HTML és CSS fájlok a megjelenítésért felelnek, míg a JavaScript-ben lesznek azok a függvények, melyek a számításokat végzik majd.
 
 Az alábbi kép nagy vonalakban szemlélteti a rendszer működését.
 
 ![Absztrakt rendszermodell](/images/absztrakt-modell.png)
-
-
-## 8. Architekturális terv
-
-**Nem szükséges, mivel a projekt nem rétegelt, nem rendelkezik biztonsági lépések megtételét indokló funkciókkal, a bővíthetőség pedig triviális.**
 
 
 ## 9. Adatbázisterv
