@@ -55,9 +55,91 @@ div select {
 #table-arrow {
 
     text-align: center;
+    padding: 10px;
 }
 
 #table-secondinput {
     text-align: center;
 }
 
+#converter {
+    align-content: center;
+    display: initial;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 175%;
+    }
+
+    td {
+        font-size: 150%;
+    }
+
+    body{
+        margin: 0;
+    }
+    input:not([type='button']) {
+        width: 80%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 200%;
+    }
+
+    td {
+        font-size: 175%;
+    }
+
+    body{
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    h1 {
+        font-size: 275%;
+    }
+
+    td {
+        font-size: 200%;
+    }
+
+    body{
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+
+    h1 {
+        font-size: 350%;
+    }
+
+    td {
+        font-size: 225%;
+    }
+
+    body {
+        margin: 5%;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+
+    h1 {
+        font-size: 400%;
+    }
+
+    td {
+        font-size: 250%;
+    }
+
+    body {
+        margin: 5%;
+    }
+}
