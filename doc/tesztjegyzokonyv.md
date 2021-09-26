@@ -5,7 +5,7 @@
 ### Nyelvváltás tesztelése Google Chrome böngészőben
     - Tesztelő neve: Veress Gábor
 
-    - Teszelés ideje: 2021.09.26 21:40
+    - Teszelés ideje: 2021.09.26 21:30
 
     - Tesztelt rendszer: Nyelvváltás
 
@@ -28,7 +28,7 @@
 ### Átváltás tesztelése Google Chrome böngészőben 
    - Tesztelő neve: Veress Gábor
 
-    - Teszelés ideje: 2021.09.26 21:47
+    - Teszelés ideje: 2021.09.26 21:29
 
     - Tesztelt rendszer: Átváltás
 
@@ -41,6 +41,27 @@
     - Teszt konkluzió: Az átváltó funkció megfelelően működik
 
     - Egyéb megjegyzés:
-    
+
     A tesztelés a Selenium IDE segítségével végeztem:
-    ![Kép a tesztelésről](/images/nyelv-teszt.png)
+    ![Kép a tesztelésről](/images/atvalto-teszt.png)
+
+
+### Visszaváltás tesztelése Google Chrome böngészőben 
+   - Tesztelő neve: Veress Gábor
+
+    - Teszelés ideje: 2021.09.26 21:37
+
+    - Tesztelt rendszer: Visszaváltás
+
+    - Rendszer amin a teszt végbement: Windows 10 Pro 20H2, Google Chrome 93.0.4577.82 (Hivatalos verzió) (64 bites)
+
+    - Kapott eredmény: Az oldal megfelelően váltja-e vissza az eredeti átváltást
+
+    - Várt eredmény: Az oldal megfelelően váltja vissza az eredeti átváltást
+
+    - Teszt konkluzió: Az visszaváltó funkció megfelelően működik
+
+    - Egyéb megjegyzés:
+
+    A tesztelés a Selenium IDE segítségével végeztem:
+    ![Kép a tesztelésről](/images/reverse-button-teszt.png)
