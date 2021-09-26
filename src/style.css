@@ -22,6 +22,10 @@ td {
     font-size: 200%;
 }
 
+td:first-child {
+    text-align: left;
+}
+
 td:last-child {
     text-align: right;
 }
@@ -33,7 +37,7 @@ div {
     font-weight: bold;
 }
 
-select:first-child {
+div select {
     background-color: navy;
     color: white;
     font-weight: bold;
@@ -44,4 +48,16 @@ select:first-child {
     font-weight: bold;
 }
 
+#table-measurementselectinput {
+    text-align: center;
+}
+
+#table-arrow {
+
+    text-align: center;
+}
+
+#table-secondinput {
+    text-align: center;
+}
 
