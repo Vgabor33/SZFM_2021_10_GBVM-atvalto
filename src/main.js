@@ -122,3 +122,34 @@ function updateResult() {
 }
 
 module.exports = {Measurement, measurements};
+
+function reverseSelection() {
+    
+    const inSelectElem = document.getElementById("input_select")
+    const inOptionElem = inSelectElem.selectedOptions[0]
+    const inMeasurement = inOptionElem.jsObj
+    const inNumberElem = document.getElementById("input_number")
+
+    const outSelectElem = document.getElementById("output_select")
+    const outOptionElem = outSelectElem.selectedOptions[0]
+    const outMeasurement = outOptionElem.jsObj
+    const outNumberElem = document.getElementById("output_number")
+
+    for (const inOption of inSelectElem.options) {
+        if(inOption.jsObj === outMeasurement) {
+            inSelectElem.selectedIndex = inOption.index
+            break
+        }
+    }
+
+    for(const outOption of outSelectElem.options) {
+        if(outOption.jsObj === inMeasurement) {
+            outSelectElem.selectedIndex = outOption.index
+            break
+        }
+    }
+
+    inNumberElem.value = outNumberElem.value
+
+    updateResult()
+}
