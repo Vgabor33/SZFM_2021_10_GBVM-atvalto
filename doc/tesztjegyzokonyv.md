@@ -20,8 +20,8 @@
 
     - Egyéb megjegyzés: A teszteléshez használt szoftver elrontotta a kódolást
 
-    A tesztelés a Selenium IDE segítségével végeztem:
-    ![Kép a tesztelésről](/images/nyelv-teszt.png)
+    A tesztelést a Selenium IDE segítségével végeztem:
+    ![Kép a nyelvváltás tesztelésről](/images/nyelv-teszt.png)
 
 
 
@@ -42,8 +42,8 @@
 
     - Egyéb megjegyzés:
 
-    A tesztelés a Selenium IDE segítségével végeztem:
-    ![Kép a tesztelésről](/images/atvalto-teszt.png)
+    A tesztelést a Selenium IDE segítségével végeztem:
+    ![Kép az átváltás tesztelésről](/images/atvalto-teszt.png)
 
 
 ### Visszaváltás tesztelése Google Chrome böngészőben 
@@ -63,5 +63,5 @@
 
     - Egyéb megjegyzés:
 
-    A tesztelés a Selenium IDE segítségével végeztem:
-    ![Kép a tesztelésről](/images/reverse-button-teszt.png)
+    A tesztelést a Selenium IDE segítségével végeztem:
+    ![Kép a visszaváltás tesztelésről](/images/reverse-button-teszt.png)
