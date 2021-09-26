@@ -153,3 +153,53 @@ function reverseSelection() {
 
     updateResult()
 }
+
+function changeLanguage() {
+    
+    var currentLanguage = document.getElementById("lang").value
+
+    var headerText = document.getElementById("header")
+    var td1Text = document.getElementById("td1")
+    var td2Text = document.getElementById("td2")
+    var languageText = document.getElementById("lang_text")
+    var englishText = document.getElementById("eng")
+    var hungarianText = document.getElementById("hun")
+    var countryText = document.getElementById("country")
+    var usaText = document.getElementById("usa")
+    var myanText = document.getElementById("myan")
+    var libText = document.getElementById("lib")
+    var otherText = document.getElementById("other")
+    var reverseButtonText = document.getElementById("reverse_button")
+
+    if(currentLanguage == "hun")
+    {
+        headerText.innerText="Átváltó"
+        td1Text.style.visibility = "hidden"
+        td2Text.style.visibility = "hidden"
+        languageText.innerText="Nyelv:"
+        englishText.innerText="Angol"
+        hungarianText.innerText="Magyar"
+        countryText.innerText="Ország:"
+        usaText.innerText="Egyesült államok"
+        myanText.innerText="Mianmar"
+        libText.innerText="Libéria"
+        otherText.innerText="Más ország"
+        reverseButtonText.value = "Megfordít"
+
+    }
+    else
+    {
+        headerText.innerText="Imperial/Metric converter"
+        td1Text.style.visibility = "visible"
+        td2Text.style.visibility = "visible"
+        languageText.innerText="Language:"
+        englishText.innerText="English"
+        hungarianText.innerText="Hungarian"
+        countryText.innerText="Country:"
+        usaText.innerText="USA"
+        myanText.innerText="Myanmar"
+        libText.innerText="Liberia"
+        otherText.innerText="Other"
+        reverseButtonText.value = "Reverse"
+    }
+}

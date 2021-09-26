@@ -6,26 +6,26 @@
 
     <body onload="onLoad()">
         
-        <H1>Imperial/Metric converter</H1>
+        <H1 id="header">Imperial/Metric converter</H1>
         <table>
             <tr>
-                <td>
+                <td id="td1">
                     Imperial &raquo; Metric
                 </td>
-                <td>
+                <td id="td2">
                     Metric &raquo; Imperial
                 </td>
             </tr>
         </table>
 
         <div>
-            <p>Language:</p>
-                <select name="Language_Select">
-                    <option value="eng">
+            <p id="lang_text">Language:</p>
+                <select name="Language_Select" id="lang" oninput="changeLanguage()">
+                    <option value="eng" id="eng">
                         English
                     </option>
                     
-                    <option value="hun">
+                    <option value="hun" id="hun">
                         Hungarian
                     </option>
                 </select>
@@ -33,12 +33,12 @@
             </div>
     
             <div>
-            <p>Country:</p>
+            <p id="country">Country:</p>
                 <select name="Country">
-                    <option value="US">USA</option>
-                    <option value="MM">Myanmar</option>
-                    <option value="LR">Liberia</option>
-                    <option value="OT">Other</option>
+                    <option value="US" id="usa">USA</option>
+                    <option value="MM" id="myan">Myanmar</option>
+                    <option value="LR" id="lib">Liberia</option>
+                    <option value="OT" id="other">Other</option>
                 </select>
             <BR>
         </div>
@@ -71,7 +71,7 @@
         </table>
         </div>
         <div>
-            <input type="button" value="Reverse" onclick="reverseSelection()">
+            <input type="button" value="Reverse" onclick="reverseSelection()" id="reverse_button">
         </div>
         <footer>
             &copy; 1999-2021 Sett Construction Company<br>
