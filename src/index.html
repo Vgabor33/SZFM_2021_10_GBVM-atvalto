@@ -6,20 +6,20 @@
 
     <body onload="onLoad()">
         
-            <H1>Imperial/Metric converter</H1>
-            <table>
-                <tr>
-                    <td>
-                        Imperial &raquo; Metric
-                    </td>
-                    <td>
-                        Metric &raquo; Imperial
-                    </td>
-                </tr>
-            </table>
+        <H1>Imperial/Metric converter</H1>
+        <table>
+            <tr>
+                <td>
+                    Imperial &raquo; Metric
+                </td>
+                <td>
+                    Metric &raquo; Imperial
+                </td>
+            </tr>
+        </table>
 
         <div>
-            Language:
+            <p>Language:</p>
                 <select name="Language_Select">
                     <option value="eng">
                         English
@@ -33,7 +33,7 @@
             </div>
     
             <div>
-            Country:
+            <p>Country:</p>
                 <select name="Country">
                     <option value="US">USA</option>
                     <option value="MM">Myanmar</option>
@@ -42,16 +42,25 @@
                 </select>
             <BR>
         </div>
-        
+
+        <div>
         <input type="number" value="1" oninput="updateResult(this.value)" id="input_number">
         <select class="measurement-select" id="input_select" oninput="updateResult(this.value)">
             <!-- Populated in JS -->
         </select>
+        <img src="../images/arrow.png">
         <input type="number" id="output_number">
         <select class="measurement-select" id="output_select" oninput="updateResult(this.value)">
             <!-- Populated in JS -->
         </select>
-
         <input type="button" value="Reverse">
+    </div>
+
+    <footer>
+        <p>
+            &copy; 2021 GBVM
+            contact: VG@mail.GBVM.hu
+        </p>
+    </footer>
     </body>
 </HTML>
