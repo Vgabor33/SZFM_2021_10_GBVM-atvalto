@@ -68,3 +68,17 @@ div select {
     margin-right: auto;
     margin-left: auto;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 175%;
+    }
+
+    td {
+        font-size: 150%;
+    }
+
+    body{
+        margin: 0;
+    }
+}
