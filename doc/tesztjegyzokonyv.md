@@ -2,22 +2,45 @@
 
 ## Alfa-tesztelés:
 
-- Tesztelő neve: Veress Gábor
+### Nyelvváltás tesztelése Google Chrome böngészőben
+    - Tesztelő neve: Veress Gábor
 
-- Teszelés ideje: 2021.09.26 21:40
+    - Teszelés ideje: 2021.09.26 21:40
 
-- Tesztelt rendszer: Nyelvváltás
+    - Tesztelt rendszer: Nyelvváltás
 
-- Rendszer amin a teszt végbement: Windows 10 Pro 20H2, Google Chrome 93.0.4577.82 (Hivatalos verzió) (64 bites)
+    - Rendszer amin a teszt végbement: Windows 10 Pro 20H2, Google Chrome 93.0.4577.82 (Hivatalos verzió) (64 bites)
 
-- Kapott eredmény: Az oldal megfelelő 
-    nyelvre vált át
+    - Kapott eredmény: Az oldal megfelelő 
+        nyelvre vált át
 
-- Várt eredmény: Az oldal megfelelő nyelvre vált át
+    - Várt eredmény: Az oldal megfelelő nyelvre vált át
 
-- Teszt konkluzió: A nyelvváltás funkció megfelelően működik
+    - Teszt konkluzió: A nyelvváltás funkció megfelelően működik
 
-- Egyéb megjegyzés: A teszteléshez használt szoftver elrontotta a kódolást
+    - Egyéb megjegyzés: A teszteléshez használt szoftver elrontotta a kódolást
 
-A tesztelés a Selenium IDE segítségével végeztem:
-![Kép a tesztelésről](/images/nyelv-teszt.png)
+    A tesztelés a Selenium IDE segítségével végeztem:
+    ![Kép a tesztelésről](/images/nyelv-teszt.png)
+
+
+
+### Átváltás tesztelése Google Chrome böngészőben 
+   - Tesztelő neve: Veress Gábor
+
+    - Teszelés ideje: 2021.09.26 21:47
+
+    - Tesztelt rendszer: Átváltás
+
+    - Rendszer amin a teszt végbement: Windows 10 Pro 20H2, Google Chrome 93.0.4577.82 (Hivatalos verzió) (64 bites)
+
+    - Kapott eredmény: Az oldal megfelelően váltja-e át a mértékegységeket
+
+    - Várt eredmény: Az oldal megfelelően váltja át a mértékegységeket
+
+    - Teszt konkluzió: Az átváltó funkció megfelelően működik
+
+    - Egyéb megjegyzés:
+    
+    A tesztelés a Selenium IDE segítségével végeztem:
+    ![Kép a tesztelésről](/images/nyelv-teszt.png)
