@@ -55,9 +55,16 @@ div select {
 #table-arrow {
 
     text-align: center;
+    padding: 10px;
 }
 
 #table-secondinput {
     text-align: center;
 }
 
+#converter {
+    align-content: center;
+    display: initial;
+    margin-right: auto;
+    margin-left: auto;
+}
