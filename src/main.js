@@ -72,7 +72,7 @@ function populateMeasurementSelection(sender, groupRestricion = null) {
 
     const addGroupToDocument = (group) => {
         const opGroup = document.createElement('optgroup')
-        opGroup.label = group
+        opGroup.label = measurementTranslations.get(group)[document.getElementById("lang").value ?? "eng"] ?? group
         sender.appendChild(opGroup)
         groupToElems.set(group, opGroup)
     }
@@ -97,6 +97,11 @@ function populateMeasurementSelection(sender, groupRestricion = null) {
     });
 }
 
+const measurementTranslations = new Map([
+    ["length",          {hun: "Hossz",          eng: "Length"}],
+    ["pressure",        {hun: "Nyomás",         eng: "Pressure"}],
+    ["temperature",     {hun: "Hőmérséklet",    eng: "Temperature"}]
+])
 
 function updateResult() {
     
@@ -118,6 +123,7 @@ function updateResult() {
     console.log(outOptionElem.jsObj)
 
     outNumberElem.value = outNum
+    populateMeasurementSelection(inSelectElem)
     populateMeasurementSelection(outSelectElem, inOptionElem.jsObj.group)
 }
 
@@ -202,4 +208,5 @@ function changeLanguage() {
         otherText.innerText="Other"
         reverseButtonText.value = "Reverse"
     }
+    updateResult()
 }
