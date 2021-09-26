@@ -83,6 +83,12 @@ div select {
     margin-left: auto;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @media only screen and (max-width: 600px) {
     h1 {
         font-size: 175%;
@@ -97,6 +103,10 @@ div select {
     }
     input:not([type='button']) {
         width: 80%;
+    }
+
+    footer {
+        display: block;
     }
 }
 
