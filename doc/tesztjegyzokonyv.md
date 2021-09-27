@@ -67,3 +67,58 @@ A tesztelést a Selenium IDE segítségével végeztem:
 
 A tesztelést a Selenium IDE segítségével végeztem:
 ![Kép a visszaváltás tesztelésről](/images/reverse-button-teszt.png)
+
+### Átváltás tesztelése Firefox böngészőben
+
+- Tesztelő neve: Kóti Bence
+
+- Teszelés ideje: 2021.09.27 10:34
+
+- Tesztelt rendszer: Átváltás
+
+- Rendszer amin a teszt végbement: Ubuntu 20.04.3 LTS, Firefox 92.0 (64-bit)
+
+- Kapott eredmény: Az átváltott értékek közel egyenlőek a várt értékekkel.     
+
+- Várt eredmény: Az átváltott érték közel egyenlő a várt értékekkel.     
+
+- Teszt konkluzió:A teszt sikeres.
+
+- Egyéb megjegyzés: A teszthet métert válttam át hüvelykbe. Az eltérés ezredes nagységrendű volt.
+
+### Hostolás tesztelése Ubuntu alatt XAMPP programmal, firefox böngészővel
+
+- Tesztelő neve: Kóti Bence
+
+- Teszelés ideje: 2021.09.27 10:50
+
+- Tesztelt rendszer: Hostolás
+
+- Rendszer amin a teszt végbement:
+  - Hostoló rendszer: Ubuntu 20.04.3 LTS, XAMPP 8.0.10-0
+  - Kliens rendszer: Windows 10 Enterprise, Firefox 92.0.1 (64 bite)
+
+- Kapott eredmény: A weboldal ugyanúgy működik távoli weboldalként mint helyi gépen.
+
+- Várt eredmény: A weboldal ugyanúgy működik távoli weboldalként mint helyi gépen.
+
+- Teszt konkluzió:A teszt sikeres.
+
+- Egyéb megjegyzés: A speciális karakterek roncsolódtak átvitel során de a funkciók ugyanúgy működnek.
+
+### Visszaváltás tesztelése Firefox böngészőben 
+- Tesztelő neve: Kóti Bence
+
+- Teszelés ideje: 2021.09.27 11:06
+
+- Tesztelt rendszer: Visszaváltás
+
+- Rendszer amin a teszt végbement: Ubuntu 20.04.3 LTS, Firefox 92.0 (64-bit)
+
+- Kapott eredmény: A kapott érték ugyanaz lesz mint az eredetileg beírt érték.
+
+- Kapott eredmény: A kapott érték ugyanaz mint az eredetileg beírt érték.
+
+- Teszt konkluzió: A teszt sikeres
+
+- Egyéb megjegyzés:
