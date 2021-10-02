@@ -122,3 +122,57 @@ A tesztelést a Selenium IDE segítségével végeztem:
 - Teszt konkluzió: A teszt sikeres
 
 - Egyéb megjegyzés:
+
+### Nyelvváltás tesztelése Opera böngészőben
+
+- Tesztelő neve: Sándor Milán
+
+- Teszelés ideje: 2021.10.02 19:31
+
+- Tesztelt rendszer: Nyelvváltás
+
+- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Opera (Hivatalos verzió) (64 bites)
+
+- Kapott eredmény: Az oldal megfelelő 
+        nyelvre vált át
+
+- Várt eredmény: Az oldal megfelelő nyelvre vált át
+
+- Teszt konkluzió: A nyelvváltás funkció Opera böngészőben megfelelően működik
+
+- Egyéb megjegyzés: "Imperial" és "Metric" szavaknak nem adtunk magyar megfelelőt
+
+### Átváltás tesztelése Opera böngészőben
+
+- Tesztelő neve: Sándor Milán
+
+- Teszelés ideje: 2021.10.02 19:36
+
+- Tesztelt rendszer: Átváltás
+
+- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Opera (Hivatalos verzió) (64 bites)
+
+- Kapott eredmény: A felület megfelelően váltja-e át a mértékegységeket
+
+- Várt eredmény: A felület megfelelően váltja át a mértékegységeket
+
+- Teszt konkluzió: Az átváltó funkció megfelelően működik
+
+- Egyéb megjegyzés: A nyomás és hőmérséklet funkcióknál a mértékegység fül automatikusan, hossz méretre vált vissza, de ettől függetlenül, az átváltás választott mértékegységre megfelelő.
+
+### Visszaváltás tesztelése Opera böngészőben 
+- Tesztelő neve: Sándor Milán
+
+- Teszelés ideje: 2021.10.02 19:39
+
+- Tesztelt rendszer: Visszaváltás
+
+- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Opera (Hivatalos verzió) (64 bites)
+
+- Kapott eredmény: A felület megfelelően váltja-e vissza az eredeti átváltást
+
+- Várt eredmény: A felület megfelelően váltja vissza az eredeti átváltást
+
+- Teszt konkluzió: Az visszaváltó funkció megfelelően működik
+
+- Egyéb megjegyzés:
