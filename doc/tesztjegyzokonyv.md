@@ -123,7 +123,7 @@ A tesztelést a Selenium IDE segítségével végeztem:
 
 - Egyéb megjegyzés:
 
-### Nyelvváltás tesztelése Opera böngészőben
+### Nyelvváltás tesztelése Microsoft Edge böngészőben
 
 - Tesztelő neve: Sándor Milán
 
@@ -131,7 +131,7 @@ A tesztelést a Selenium IDE segítségével végeztem:
 
 - Tesztelt rendszer: Nyelvváltás
 
-- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Opera (Hivatalos verzió) (64 bites)
+- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Microsoft Edge (Hivatalos verzió) (64 bites)
 
 - Kapott eredmény: Az oldal megfelelő 
         nyelvre vált át
@@ -142,7 +142,7 @@ A tesztelést a Selenium IDE segítségével végeztem:
 
 - Egyéb megjegyzés: "Imperial" és "Metric" szavaknak nem adtunk magyar megfelelőt
 
-### Átváltás tesztelése Opera böngészőben
+### Átváltás tesztelése Microsoft Edge böngészőben
 
 - Tesztelő neve: Sándor Milán
 
@@ -150,7 +150,7 @@ A tesztelést a Selenium IDE segítségével végeztem:
 
 - Tesztelt rendszer: Átváltás
 
-- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Opera (Hivatalos verzió) (64 bites)
+- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Microsoft Edge (Hivatalos verzió) (64 bites)
 
 - Kapott eredmény: A felület megfelelően váltja-e át a mértékegységeket
 
@@ -160,14 +160,14 @@ A tesztelést a Selenium IDE segítségével végeztem:
 
 - Egyéb megjegyzés: A nyomás és hőmérséklet funkcióknál a mértékegység fül automatikusan, hossz méretre vált vissza, de ettől függetlenül, az átváltás választott mértékegységre megfelelő.
 
-### Visszaváltás tesztelése Opera böngészőben 
+### Visszaváltás tesztelése Microsoft Edge böngészőben 
 - Tesztelő neve: Sándor Milán
 
 - Teszelés ideje: 2021.10.02 19:39
 
 - Tesztelt rendszer: Visszaváltás
 
-- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Opera (Hivatalos verzió) (64 bites)
+- Rendszer amin a teszt végbement: Windows 10 Home 20H2, Microsoft Edge (Hivatalos verzió) (64 bites)
 
 - Kapott eredmény: A felület megfelelően váltja-e vissza az eredeti átváltást
 
