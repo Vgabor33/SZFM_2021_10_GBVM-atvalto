@@ -59,42 +59,54 @@ function onLoad() {
     const outputSelect = document.getElementById("output_select")
 
     populateMeasurementSelection(inputSelect)
-    populateMeasurementSelection(outputSelect)
+    populateMeasurementSelection(outputSelect, inputSelect.options[0]?.jsObj?.group)
 }
 
 
-function populateMeasurementSelection(sender, groupRestricion = null) {
+function populateMeasurementSelection(sender, groupRestriction = null) {
+    // Get currently selected option.
     const prevSelectedMeasurement = sender.selectedOptions?.[0]?.jsObj
 
+    sender.replaceChildren()
 
-    sender.innerHTML = ''
+    // Map of measurement groups to their respective DOM elements
     const groupToElems = new Map()
 
     const addGroupToDocument = (group) => {
-        const opGroup = document.createElement('optgroup')
-        opGroup.label = measurementTranslations.get(group)[document.getElementById("lang").value ?? "eng"] ?? group
-        sender.appendChild(opGroup)
-        groupToElems.set(group, opGroup)
+        const opGroupElem = document.createElement('optgroup')
+        opGroupElem.label = measurementTranslations.get(group)[document.getElementById("lang").value ?? "eng"] ?? group
+        sender.appendChild(opGroupElem)
+        groupToElems.set(group, opGroupElem)
     }
 
-    if(groupRestricion === null){
+    // Populate sender with optGroups
+    if(groupRestriction === null){
         groups.forEach(addGroupToDocument)
     }else{
-        addGroupToDocument(groupRestricion)
+        addGroupToDocument(groupRestriction)
     }
 
+    // Populate optGroups with measurements
+    let newSelected
     measurements.forEach(elem => {
         if(groupToElems.has(elem.group)){
-            const op = document.createElement('option')
-            op.text = elem.name
-            op.jsObj = elem
+            const opElem = document.createElement('option')
+            opElem.text = elem.name
+            opElem.jsObj = elem
 
-            groupToElems.get(elem.group).appendChild(op)
-            if(op.jsObj == prevSelectedMeasurement){
-                sender.selectedIndex = groupToElems.get(elem.group).children.length-1
+            groupToElems.get(elem.group).appendChild(opElem)
+            if(opElem.jsObj === prevSelectedMeasurement){
+                // Set sender's selected index to opElem with current measurement
+                sender.selectedIndex = opElem.index
+                newSelected = opElem
             }
         }
     });
+
+    console.log("Populated: ", sender,
+    "\ngroup restriction: ", groupRestriction,
+    "\nprev: ", prevSelectedMeasurement?.name,
+    "\nnew:  ", newSelected?.jsObj.name)
 }
 
 const measurementTranslations = new Map([
@@ -104,6 +116,7 @@ const measurementTranslations = new Map([
 ])
 
 function updateResult() {
+    console.log("updateResult Called! ---------------")
     
     const inSelectElem = document.getElementById("input_select")
     const inOptionElem = inSelectElem.selectedOptions[0]
@@ -116,11 +129,11 @@ function updateResult() {
     const inNumNorm = inOptionElem.jsObj.normalize(inNumberElem.value)
     const outNum = outOptionElem.jsObj.transform(inNumNorm)
 
-    console.log("in: "+inNumberElem.value)
-    console.log(inOptionElem.jsObj)
-    console.log("normalized to: "+inNumNorm+" standard")
-    console.log("transformed into: "+ outNum)
-    console.log(outOptionElem.jsObj)
+    console.log("input: ", inNumberElem.value, 
+               "\nfrom measurement: ", inOptionElem.jsObj,
+               "\nnormalized to: ", inNumNorm,
+               "\ntransformed into: ", outNum,
+               "\nto measurement: ", outOptionElem.jsObj)
 
     outNumberElem.value = outNum
     populateMeasurementSelection(inSelectElem)
