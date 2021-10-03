@@ -1,11 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;700&display=swap');
 
+* {
+    font-family:  'Fira Sans', sans-serif;
+}
+
+html {
+    width: 100%;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
 body {
     background-color: whitesmoke;
     margin: auto;
-    width: max-content;
-    font-family:  'Fira Sans', sans-serif;
-    font-weight: 200;
+    padding: 1em;
+    
+    
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -14,7 +25,7 @@ body {
 
 table select,
 table input {
-    font-size: large;
+    font-size: 1.2em;
 }
 
 #td2 {
@@ -32,14 +43,21 @@ strong {
 }
 
 h1 {
-    border: 5px solid navy;
+    padding: 5px;
     border-radius: 10px;
     background-color: navy;
 
     text-align: center;
     color: white;
-    font-size: 300%;
+    box-sizing: border-box;
+    font-size: 2em;
     width: 100%;
+    letter-spacing: 0.06em;
+}
+
+body>table {
+    font-weight: 700;
+    font-size: 1.6em;
 }
 
 table {
@@ -53,11 +71,7 @@ tbody {
 tr {
     display: flex;
     justify-content: space-between;
-}
-
-td {
-    font-weight: bold;
-    font-size: 200%;
+    align-items: center;
 }
 
 
@@ -137,6 +151,7 @@ footer {
 
     table select,
     table input {
+        box-sizing: border-box;
         width: 100%;
     }
 }
