@@ -176,3 +176,57 @@ A tesztelést a Selenium IDE segítségével végeztem:
 - Teszt konkluzió: Az visszaváltó funkció megfelelően működik
 
 - Egyéb megjegyzés:
+
+### Nyelvváltás tesztelése Opera böngészőben okostelefonon
+
+- Tesztelő neve: Nagy Viktor Márk
+
+- Teszelés ideje: 2021.10.03 16:24
+
+- Tesztelt rendszer: Nyelvváltás
+
+- Rendszer amin a teszt végbement: Android 8.0, Opera (Android)
+
+- Kapott eredmény: A nyelvváltás megfelelően végbement
+
+- Várt eredmény: Az oldal megfelelő nyelvre vált át
+
+- Teszt konkluzió: A nyelvváltás funkció Opera böngészőben Androidon megfelelően működik
+
+- Egyéb megjegyzés:
+
+### Átváltás tesztelése Opera böngészőben okostelefonon
+
+- Tesztelő neve: Nagy Viktor Márk
+
+- Teszelés ideje: 2021.10.02 16:35
+
+- Tesztelt rendszer: Átváltás
+
+- Rendszer amin a teszt végbement: Android 8.0, Opera (Android)
+
+- Kapott eredmény: A felület megfelelően váltja-e át a mértékegységeket
+
+- Várt eredmény: A felület megfelelően váltja át a mértékegységeket
+
+- Teszt konkluzió: Az átváltó funkció nem működik megfelelően.
+
+- Egyéb megjegyzés: A mértékegység fül automatikusan visszavált hosszmértékre.
+
+### Visszaváltás tesztelése Opera böngészőben okostelefonon 
+
+- Tesztelő neve: Nagy Viktor Márk
+
+- Teszelés ideje: 2021.10.02 16:48
+
+- Tesztelt rendszer: Visszaváltás
+
+- Rendszer amin a teszt végbement: Android 8.0, Opera (Android)
+
+- Kapott eredmény: A felület megfelelően váltja-e vissza az eredeti átváltást
+
+- Várt eredmény: A felület megfelelően váltja vissza az eredeti átváltást
+
+- Teszt konkluzió: Az visszaváltó funkció megfelelően működik
+
+- Egyéb megjegyzés:
