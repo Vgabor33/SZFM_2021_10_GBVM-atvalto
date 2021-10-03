@@ -8,10 +8,10 @@ class Measurement {
      */
 
     /**
-     * @param {string} group the mesurement group
+     * @param {string} group the measurement group
      * @param {string} name the measurement name
      * @param {Fun1} normalize the normalization function which transforms the units to the chosen base unit
-     * @param {Fun1} transform the transform funtion which transforms the base unit to this one
+     * @param {Fun1} transform the transform function which transforms the base unit to this one
      */
     constructor(group, name, normalize, transform) {
         this.group = group
